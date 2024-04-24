@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Exemplo para projeto DIMDIM</title>
+</head>
+<body>
+
+    <h1> Exemplo para tela login DIMDIM</h1>
+
+    <form id="FormularioLogin">
+        <label for="usuario"> Usuário:</label>
+        <input type="text" id="usuario" name=""Usuario"><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" namme="senha"><br>
+        <button type="button" onclick="efetuarLogin();">Enviar</button>
+    </form>
+
+    <script>
+        function efetuarLogin()
+        {
+            if(document.getElementById('usuario').value=='senac'
+              && document.getElementById('senha').value == '230424')
+              {
+                alert("Função funcionou!!!!");
+              }
+            
+        }
+    </script>
+
+</body>
+
+</html>
